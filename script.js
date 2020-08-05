@@ -7,7 +7,7 @@ Promise.all([
 ]).then(initVideo);
 function initVideo(){
     navigator.mediaDevices.getUserMedia({  //to open video
-        video:true,
+        
         video:{
            
             width:450,
